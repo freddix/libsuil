@@ -1,7 +1,7 @@
 Summary:	Lightweight C library for loading and wrapping LV2 plugin UIs
 Name:		libsuil
 Version:	0.6.6
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Libraries
 Source0:	http://download.drobilla.net/suil-%{version}.tar.bz2
@@ -49,7 +49,8 @@ export LDFLAGS="%{rpmldflags}"
 	--prefix=%{_prefix}	\
 	--mandir=%{_mandir}	\
 	--libdir=%{_libdir}	\
-	--nocache
+	--nocache		\
+	--gtk2-lib-name="libgtk-x11-2.0.so.0"
 ./waf -v build
 
 %install
