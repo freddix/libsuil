@@ -1,11 +1,11 @@
 Summary:	Lightweight C library for loading and wrapping LV2 plugin UIs
 Name:		libsuil
-Version:	0.6.10
+Version:	0.6.12
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://download.drobilla.net/suil-%{version}.tar.bz2
-# Source0-md5:	735e3cc4d539059cf3948d3dba75807e
+# Source0-md5:	528d4a0a37e6c9d5a4547ac36f7bd9e6
 BuildRequires:	QtGui-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	libstdc++-devel
